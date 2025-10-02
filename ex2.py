@@ -13,7 +13,7 @@ for i in range(3):
             print ("account locked")
         else:
             print ("wrong username or password")
-            
+            print("------------------------------------------")
 if system:
     N = int(input("Enter a number: "))
     for num in range(2, N + 1):
