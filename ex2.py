@@ -5,6 +5,7 @@ for i in range(3):
     username_input = input("username: ")
     password_input = input("password: ")
     if username == username_input and password == password_input:
+        system = True
         break
     else:
         system = False
