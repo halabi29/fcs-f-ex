@@ -61,4 +61,7 @@ def main():
         print("No students failed! ")
 
 
+
+if __name__ == "_main":
+    varOcg = True 
     main()
