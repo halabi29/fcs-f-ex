@@ -1,0 +1,93 @@
+body {
+    font-family: Segoe UI;
+    margin: 0;
+    background-color: #111;
+    color: rgb(51, 255, 0);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: #222
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #111;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 0, 0);
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+#hobbies {
+    background-color: #222;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#contact {
+    text-align: center;
+    margin: 20px;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    background-color: #222;
+    color: rgb(43, 255, 0);
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(9, 255, 0);
+    color: #222
+}
+
+button:active {
+    background-color: rgb(255, 0, 0);
+}
+
+#output {
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #222;
+    padding: 10px;
+}
