@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Personal Profile</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 class="welcome">Welcome to My Profile Page</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#contact">Say Hello</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about" class="profile">
+    <img src="nas.jpg" alt="Profile Photo" class="profile-pic" />
+    <article>
+      <h2>About Me</h2>
+      <p>
+        Hi! I'm nassim, I'm 21 years old, and I'm an SE Factory student who’s trying to improve and loves creating websites.
+      </p>
+    </article>
+  </section>
+
+  <section id="hobbies">
+    <h2>My Hobbies</h2>
+    <ul>
+      <li>Football</li>
+      <li>Coding</li>
+      <li>Singing</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <p>Enter your name below and click the button!</p>
+    <input type="text" id="nameInput" placeholder="Your name here" />
+    <button id="greetBtn">Greet Me!</button>
+    <div id="output"></div>
+    <p id="clickCounter">Button clicked: 0 times</p>
+  </section>
+
+  <footer>
+    <p>This is a simple profile page - Made with ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
